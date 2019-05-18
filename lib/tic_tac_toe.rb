@@ -70,7 +70,7 @@ class TicTacToe
   end
 
   def full?
-    @board.any?(" ") ? true : false
+    @board.all? { |space| space != " "}
   end
 
 end
