@@ -54,7 +54,7 @@ class TicTacToe
       if valid_move(index)
         play_char = current_player
         move(index, play_char)
-        
+
       else
         puts "Your move:"
         input = gets
