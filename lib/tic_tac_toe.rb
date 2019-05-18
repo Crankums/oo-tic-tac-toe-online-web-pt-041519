@@ -94,11 +94,7 @@ class TicTacToe
   end
 
   def play
-    if !over?
-      turn
-    end
-    play_char = winner
-    puts "Congratulates #{play_char}"
+    turn until over?
   end
 
 end
