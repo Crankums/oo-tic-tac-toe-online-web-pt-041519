@@ -53,5 +53,3 @@ class TicTacToe
   end
 
 end
-
-  
