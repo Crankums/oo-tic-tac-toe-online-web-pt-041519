@@ -87,7 +87,7 @@ class TicTacToe
     if draw?
     elsif won?
     else false
-      
+
   end
 
 
