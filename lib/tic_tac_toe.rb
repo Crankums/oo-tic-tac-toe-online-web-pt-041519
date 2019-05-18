@@ -49,16 +49,17 @@ class TicTacToe
 
   def turn
     puts "Your move:"
-    input = gets.chomp
+    input = gets
     index = input_to_index(input)
       if valid_move(index)
         play_char = current_player
         move(index, play_char)
-        display_board
+        
       else
         puts "Your move:"
         input = gets
       end
+    display_board
   end
 
 end
