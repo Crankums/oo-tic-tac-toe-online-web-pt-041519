@@ -51,7 +51,7 @@ class TicTacToe
     puts "Your move:"
     user_input = gets.strip
     index = input_to_index(user_input)
-      if valid_move(index)
+      if valid_move?(index)
         play_char = current_player
         move(index, play_char)
       else
