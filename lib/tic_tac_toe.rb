@@ -88,7 +88,7 @@ class TicTacToe
   end
 
   def winner
-    if line = won?
+    if won?
       @board[line[0]]
     end
   end
