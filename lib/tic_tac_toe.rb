@@ -46,7 +46,6 @@ class TicTacToe
   def current_player
   end
 
-
   def turn
     puts "Your move:"
     input = gets.chomp
