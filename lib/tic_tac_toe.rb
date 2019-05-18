@@ -42,7 +42,7 @@ class TicTacToe
   def turn(input)
     input = gets
     index = input_to_index(input)
-      if valid_move(index) 
+      if valid_move(index)
         move(index, play_char)
         display_board
       else
@@ -50,7 +50,7 @@ class TicTacToe
         input = gets
       end
   end
-  
+
 end
 
   
