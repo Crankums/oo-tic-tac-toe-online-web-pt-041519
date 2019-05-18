@@ -73,4 +73,19 @@ class TicTacToe
     @board.all? { |space| space != " "}
   end
 
+  def draw?
+    if !won? && full?
+      true
+    elsif won?
+      true
+    else
+      false
+    end
+  end
+  
+      
+  end
+    
+      
+
 end
