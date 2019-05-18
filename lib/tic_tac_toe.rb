@@ -70,7 +70,7 @@ class TicTacToe
   end
 
   def full?
-    @board.include?(" ") ? true : false
+    @board.any?(" ") ? true : false
   end
 
 end
