@@ -97,6 +97,8 @@ class TicTacToe
     if !over?
       turn
     end
+    play_char = winner
+    puts "Congratulates #{play_char}"
   end
 
 end
