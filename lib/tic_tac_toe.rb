@@ -41,6 +41,8 @@ class TicTacToe
 
   def turn_count
     @board.count? {|elem| elem != " "}
+  end
+  
   def turn
     puts "Your move:"
     input = gets.chomp
