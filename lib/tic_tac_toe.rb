@@ -62,7 +62,7 @@ class TicTacToe
   end
 
   def won?
-    @board.include?(WIN_COMBINATIONS)
+    (@board - WIN_COMBINATIONS).empty?
   end
 
 end
