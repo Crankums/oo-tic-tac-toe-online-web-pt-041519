@@ -43,6 +43,10 @@ class TicTacToe
     @board.count {|elem| elem != " "}
   end
 
+  def current_player
+  end
+  
+
   def turn
     puts "Your move:"
     input = gets.chomp
