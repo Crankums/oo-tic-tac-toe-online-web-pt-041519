@@ -40,7 +40,7 @@ class TicTacToe
   end
 
   def turn_count
-    @board.count? {|elem| elem != " "}
+    @board.count {|elem| elem != " "}
   end
 
   def turn
