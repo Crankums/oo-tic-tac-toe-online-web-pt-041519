@@ -49,8 +49,8 @@ class TicTacToe
 
   def turn
     puts "Your move:"
-    user_input = gets.strip
-    index = input_to_index(user_input)
+    input = gets
+      index = input_to_index(input)
       if valid_move?(index)
         play_char = current_player
         move(index, play_char)
