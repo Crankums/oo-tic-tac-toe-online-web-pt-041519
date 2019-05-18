@@ -90,8 +90,4 @@ class TicTacToe
   def winner
   end
 
-
-
-
-
 end
